@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+    border: 2px black;
+    text-align: center;
+}
+
+.upperbody{
+    text-align: center;
+    background: black;
+    padding: 20px
+
+
+}
+
+.mybody {
+    color: orange;
+    text-align: center;
+}
+
+.button {
+
+    background: green;
+    height: 30px;
+    width: 100px
+
+}
+
+.button:hover {
+    background: orange;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container > div {
+    background-color: green;
+    font-size: 20px;
+    margin:20px;
+    padding: 20px;
+    width: 200px;
+
+}
+.incontain:hover {
+    background-color: blue;
+}
